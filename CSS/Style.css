@@ -1,0 +1,20 @@
+.header h1{
+    font-family: Impact, sans-serif;
+    font-size: 80px !important;
+    font-weight: bold !important;
+}
+.header p{
+    font-size: 35px !important;
+}
+#quote,#author{
+    font-size: 35px !important;
+}
+.header button{
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+}
+.header button:hover{
+    background-color: green;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <!----------------Google Fonts------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <!----------------Font Awesome----------------->
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <!---------------BootStrap----------------->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <!-----------------Style------------------------>
+    <link rel="stylesheet" href="./CSS/Style.css">
+</head>
+
+<body>
+    <div class="text-center d-flex justify-content-center align-items-center mt-5 header">
+        <div class="container">
+            <h1 class="fw-bolder fs-1">Quote of the Day</h1>
+            <p class="mt-5">Press the button below to receive a random quote!</p>
+            <button class="btn btn-primary mt-3 rounded-0" onclick="showRandomQuote()">New Quote</button>
+            <div id="quote" class="mt-4"></div>
+            <div id="author" class="mt-1"></div>
+        </div>
+    </div>
+    
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/Java.js"></script>
+</body>
+
+</html>
